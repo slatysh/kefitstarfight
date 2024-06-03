@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd0c428c3244cada90115376f8a5369, type: 3}
+  m_Name: CommonSettings
+  m_EditorClassIdentifier: 
+  BulletSettingsDict:
+  - BulletType: 0
+    BulletSettings: {fileID: 11400000, guid: 115911f5f57fb6c419ad9bfb3d5b92ba, type: 2}
+  - BulletType: 1
+    BulletSettings: {fileID: 11400000, guid: 68b44a8e1f8d23e4ea88193a78a4e2ef, type: 2}
+  PlayerAttackSettings: {fileID: 11400000, guid: 50e2f70404d01734a90d445ea0da1e8c, type: 2}
+  PlayerMoveSettings: {fileID: 11400000, guid: 78aa64ffc6ce5364c839539222e6d461, type: 2}
+  EnemySpawnSettings: {fileID: 11400000, guid: d953181bda0f4d44dbc51cb268a650a0, type: 2}
